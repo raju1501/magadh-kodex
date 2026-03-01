@@ -4,10 +4,10 @@ import Link from "next/link"
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-r from-slate-900 to-slate-800 text-slate-300">
-      
+
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 md:px-6 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
-        
+
         {/* Brand */}
         <div>
           <div className="flex items-center gap-3">
@@ -43,6 +43,7 @@ export default function Footer() {
             <li><Link href="/services" className="hover:text-yellow-400">Services</Link></li>
             <li><Link href="/careers" className="hover:text-yellow-400">Careers</Link></li>
             <li><Link href="/contact" className="hover:text-yellow-400">Contact</Link></li>
+            <li><Link href="/privacy-policy" className="hover:text-yellow-400">Privacy Policy</Link></li>
           </ul>
         </div>
 
